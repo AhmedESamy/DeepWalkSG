@@ -2,8 +2,6 @@
 
 This repository contains the code for _Deepwalk: Online learning of social representations_, a paper in **Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining. 2014**.
 
-_SchemaWalk: Schema Aware Random Walks for Heterogeneous Graph Embedding_, a paper **currently under review**.
-
 ## Contents
 
 This repository includes:
@@ -37,4 +35,4 @@ Each embeddings file passed to `src/evaluate.py` is evaluated multiple times, on
 For each data split, the last 20% of the data is used for evaluating 8 classifiers, trained on the first 10%, 20%, ..., 80% of the data respectively. The micro and macro F1 scores are reported separately for each training data percentage.
 
 ## reference
-_Perozzi, Bryan, Rami Al-Rfou, and Steven Skiena. "Deepwalk: Online learning of social representations." Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining. 2014.
+_Perozzi, Bryan, Rami Al-Rfou, and Steven Skiena. "Deepwalk: Online learning of social representations." Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining. 2014_.
