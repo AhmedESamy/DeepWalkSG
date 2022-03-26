@@ -1,5 +1,6 @@
 # DeepWalkSG
 This is a python code for DeepWalk with SkipGram using PyTorch with the following requirements:
+
 torch                   1.5.0               
 torchvision             0.6.0 
 
